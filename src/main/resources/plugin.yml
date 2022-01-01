@@ -1,0 +1,14 @@
+name: AerogonJobSys
+version: ${project.version}
+main: de.karottenboy33.aerogonjobsys.AerogonJobSys
+api-version: 1.15
+authors: [ Karottenboy33, AerogonschlauMeier ]
+commands:
+  AdminJob:
+  getJobItems:
+  job:
+    aliases:
+      - j
+      - jobs
+softdepend:
+  - AerogonMaster
